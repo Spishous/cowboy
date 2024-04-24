@@ -1,0 +1,53 @@
+{
+    "cowboy": {
+        "imgCol": 7,
+        "imgRow": 6,
+        "default": "idle",
+        "animations": [
+        {
+            "idle": {
+                "frame":[22,23,24,25],
+                "speed": 5,
+                "loop": true
+            },
+            "die": {
+                "frame":[0,1,2,3,4,5,6,7,8],
+                "speed": 5,
+                "loop": false
+            },
+            "shoot": {
+                "frame":[31,32,33,34],
+                "speed": 5,
+                "loop": false
+            },
+            "draw": {
+                "frame":[17,18,19],
+                "speed": 5,
+                "loop": false
+            }
+        },
+        {
+            "idle": {
+                "frame":[26,27,28,29,30],
+                "speed": 5,
+                "loop": true
+            },
+            "die": {
+                "frame":[9,10,11,12,13,14,15,16,12],
+                "speed": 5,
+                "loop": false
+            },
+            "shoot": {
+                "frame":[34,35,36,37],
+                "speed": 5,
+                "loop": false
+            },
+            "draw": {
+                "frame":[20,21],
+                "speed": 5,
+                "loop": false
+            }
+        }
+    ]
+}
+}
