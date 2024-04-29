@@ -5,9 +5,17 @@
   let player2 : Cowboy
 
 
-  function shoot() {
+  function fire() {
     player1.shoot()
     player2.shoot()
+  }
+  function shoot() {
+    player1.shoot()
+    player2.die()
+  }
+  function die() {
+    player1.die()
+    player2.die()
   }
   function reload() {
     player1.reload()
@@ -17,7 +25,9 @@
 
 <main>
   <h1>Cowboy</h1>
+  <button on:click={fire}>Fire</button>
   <button on:click={shoot}>Shoot</button>
+  <button on:click={die}>Die</button>
   <button on:click={reload}>Reload</button>
   <Sun/>
     <div class="floor">
