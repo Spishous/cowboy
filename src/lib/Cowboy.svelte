@@ -97,7 +97,7 @@
 
 <style>
     .cowboy {
-        background-image: url('spriesheet-complete.png');
+        background-image: url('/spriesheet-complete.png');
         background-size: 7em 6em;
         image-rendering: pixelated;
         font-size: 180px;

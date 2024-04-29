@@ -54,7 +54,7 @@
     left: 0;
     right: 0;
     top:-.5em;
-    background-image: url(floor.png);
+    background-image: url("/floor.png");
     background-size: auto 1em;
     height: 1em;
     font-size: 30px;
